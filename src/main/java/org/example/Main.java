@@ -2,15 +2,12 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        int liczba = 57;
-        short liczba2 = 5;
-        float liczba3 = 4.56f;
-        boolean czyZaznaczane = true; //jednoliniowy
-        char znak = '*';
-        String imie = "Adam";
+        int liczba = 57; // deklaracja i inicjalizacja
+        int liczba2; //deklaracja
+        liczba2 = 2;
 
-        System.out.println("To jest zmienna typu int: " + liczba +
-                            "\nTo jest zmienna typu short: " + liczba2);
+        System.out.println(liczba  + liczba2);//operacja arytmetyczna (plus jako działanie arytmetyczne)
+        System.out.println(liczba + " \t" + liczba2);//konkatenacja (plus jako konkatenacja)
 
     }
 }
