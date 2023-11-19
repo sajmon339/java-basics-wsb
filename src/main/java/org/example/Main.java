@@ -6,10 +6,9 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Podaj wartość do sprawdzenia: [zatwierdź enterem]");
-        int input = scan.nextInt();
-        System.out.println( input % 2 == 0 ? "Liczba: " + input + " jest parzysta!" :
-                                             "Liczba: " + input + " NIE jest parzysta!");
+        System.out.println("Czy mieszkasz w Gdyni?");
+        Boolean input = scan.next().equals("Gdynia") ? true : false;
 
+        System.out.println(input);
     }
 }
