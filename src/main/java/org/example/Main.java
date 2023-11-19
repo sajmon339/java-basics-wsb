@@ -10,10 +10,7 @@ public class Main {
         int miesiac = scan.nextInt();
 
         switch (miesiac){
-            case 1 -> {
-                System.out.println("Podaleś numer: " + miesiac + " to jest Styczeń.");
-                System.out.println("Podaleś numer: " + miesiac + " to jest Styczeń.");
-            }
+            case 1 -> System.out.println("Podaleś numer: " + miesiac + " to jest Styczeń.");
             case 2 -> System.out.println("Podaleś numer: " + miesiac + " to jest Luty.");
             case 3 -> System.out.println("Podaleś numer: " + miesiac + " to jest Marzec.");
             case 4 -> System.out.println("Podaleś numer: " + miesiac + " to jest Kwiecień.");
