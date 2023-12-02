@@ -9,16 +9,11 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner przyjmowacz = new Scanner(System.in);
-        String regex = "[0-9]{2}";//przyklad regexp
-        Pattern pattern = Pattern.compile(regex);;//przyklad regexp
+
 
         while(true) {
             System.out.println("Podaj liczbę 1: [zatwierdź enter]");
             String liczba1 = przyjmowacz.next();
-            Matcher matcher = pattern.matcher(liczba1);;//przyklad regexp
-            if(!matcher.matches()) continue; ;//przyklad regexp
-            System.out.println(matcher.matches()); ;//przyklad regexp
-
             System.out.println("Podaj liczbę 2: [zatwierdź enter]");
             int liczba2 = przyjmowacz.nextInt();
             System.out.println("Podaj operator (+, -, *, /), x - zakończy działanie: [zatwierdź enter]");
